@@ -29,7 +29,7 @@
       GATEWAY=192.168.0.1
       DNS1=192.168.0.1
       ```
-  - /etc/hostname
+  - `/etc/hostname`
     - k8s-main
       ```bash
       k8s-main.localdomain
@@ -42,7 +42,7 @@
       ```bash
       k8s-node-02.localdomain
       ```
-  - /etc/hosts
+  - `/etc/hosts`
     ```bash
     192.16.0.199    k8s-main k8s-main.localdomain
     192.16.0.198    k8s-node-01 k8s-node-01.localdomain
